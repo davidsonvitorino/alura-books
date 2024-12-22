@@ -105,6 +105,90 @@
             </div>
         </div>
     </section>
+
+    <section class="carrossel-mais-vendidos">
+        <h2 class="carrossel-titulo">Mais vendidos</h2>
+
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/imagens/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                <div class="swiper-slide"><img src="assets/imagens/Javascript.svg" alt="Livro sobre JavaScript Assertivo"></div>
+                <div class="swiper-slide"><img src="assets/imagens/Liderança.svg" alt="Livro sobre liderança em design"></div>
+                <div class="swiper-slide"><img src="assets/imagens/Angular.svg" alt="Livro sobre Angular do alura books"></div>
+                ...
+            </div>
+
+            <!-- Botões de navegação se necessário -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <!-- 1º linha -->
+            <div class="card-descricao">
+                <!-- 1º coluna -->
+                <div class="descricao">
+                    <img src="assets/imagens/Estrelinhas.svg" alt="Icone de estrelinhas">
+                    <h3 class="descricao-titulo">Autora do Mês</h3>
+                    <h2 class="descricao-titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao-texto">Analista de sistemas e escritorta, Juliana é especialista em Front-End</p>
+                </div>
+                <!-- 2º coluna -->
+                <img src="assets/imagens/Perfil-escritora 1.svg" alt="Imagem da escritora" class="descricao-imagem">
+            </div>
+
+            <!-- 2º linha -->
+            <div class="card-botoes">
+                <!-- 1º coluna -->
+                <ul class="botoes">
+                    <li class="botoes-item"><img src="assets/imagens/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botoes-item"><img src="assets/imagens/Sacola.svg" alt="Adicionar no carrinho de compras"></li>
+                </ul>
+                <!-- 2ª coluna-->
+                <a href="#" class="botoes-ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos-titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos-lista">
+            <li class="topicos-item">
+                <a href="#" class="topicos-link">Android</a>
+            </li>
+            <li class="topicos-item">
+                <a href="#" class="topicos-link">Marketing Digital</a>
+            </li>
+            <li class="topicos-item">
+                <a href="#" class="topicos-link">Agile</a>
+            </li>
+            <li class="topicos-item">
+                <a href="#" class="topicos-link">Startups</a>
+            </li>
+            <li class="topicos-item">
+                <a href="#" class="topicos-link">HTML & CSS</a>
+            </li>
+            <li class="topicos-item">
+                <a href="#" class="topicos-link">Python</a>
+            </li>
+            <li class="topicos-item">
+                <a href="#" class="topicos-link">OO</a>
+            </li>
+            <li class="topicos-item">
+                <a href="#" class="topicos-link">Java</a>
+            </li>
+        </ul>
+
+    </section>
+
+    <section class="cadastro-de-email">
+        <h3>Fique por dentro das novidades!</h3>
+        <p>Atualização de e-books, novos livros, promoções e outros.</p>
+        <input type="email" placeholder="E-mail">
+        <label for="email" class="email-label"></label>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', { 
