@@ -34,3 +34,24 @@
     background: url("../assets/imagens/Email.svg") no-repeat left;
     padding-left: 2rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato-titulo {
+        font-size: 1.5rem;
+        width: 60%;
+    }
+
+    .contato-email {
+        width: 30%;
+    }
+    
+    .contato-descricao {
+        margin-right: 1rem;
+    }
+}
